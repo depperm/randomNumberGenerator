@@ -13,7 +13,7 @@ class RandomGenerators:
     '''
     self.lcg_mod = 2**31    # modulus, usually power of 2 (2**32, 2**64, 2**31-1)
     self.lcg_a = 1103515245 # multiplier, arbitrary number (inventer Lehmer used 23)
-    self.lcg_c = 12345      # increment, also semi arbitrary (other common values are 1, 11)
+    self.lcg_c = 12345      # increment, usually prime (other common values are 1, 11)
     # bbs
     p = 492876847 # large prime congruent to 3 ... (p %4==3)
     q = 715225739 # large prime congruent to 3 ... (q %4==3)
